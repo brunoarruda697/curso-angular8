@@ -1,0 +1,20 @@
+<form [formGroup]="perfil">
+  <label>Nome:</label>
+  <br>
+  <input formControlName="nome" type="text"/>
+  <br>
+  <label>Sobrenome:</label>
+  <br>
+  <input formControlName="sobrenome" type="text"/>
+  <br>
+  <label>Data de nascimento:</label>
+  <br>
+  <input formControlName="dataNascimento" type="text"/>
+  <br>
+  <label>Nome da mãe:</label>
+  <br>
+  <input formControlName="nomeMae" type="text"/>
+</form>
+<br>
+<button (click)="getData()">Obter dados</button>
+<pre>{{ data | json }}</pre>

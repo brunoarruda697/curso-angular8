@@ -1,0 +1,7 @@
+<p>ngif-ngfor works!</p>
+
+<input type="text" (input)="numero = $event.target.value"/>
+<h1 *ngIf="numero > 5">teste1</h1>
+<h1 *ngIf="false">teste2</h1>
+
+<h1 *ngFor="let numero of arrayNumeros">{{ numero }}</h1>

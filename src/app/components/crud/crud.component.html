@@ -1,0 +1,4 @@
+<div *ngFor="let image of images">
+  <h1>{{ image.title }}</h1>
+  <img [attr.src]="image.url"/>
+</div>
