@@ -1,4 +1,11 @@
 <p>data-binding works!</p>
 
+<label>Numero:</label>
+<br>
 <input type="text" (input)="this.numero = $event.target.value"/>
 <h1>{{ numero }}</h1>
+
+<label>Two way binding:</label>
+<br>
+<input type="text" [(ngModel)]="nome"/>
+<h1>{{ nome }}</h1>
