@@ -15,6 +15,7 @@ import { FormComponent } from './components/form/form.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { DepartamentoComponent } from './components/departamento/departamento.component';
 import { DepartamentoDetalheComponent } from './components/departamento-detalhe/departamento-detalhe.component';
+import { TodoListComponent } from './components/todo-list/todo-list.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { DepartamentoDetalheComponent } from './components/departamento-detalhe/
     PagenotfoundComponent,
     DepartamentoComponent,
     DepartamentoDetalheComponent,
+    TodoListComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,4 @@
+import { TodoListComponent } from './components/todo-list/todo-list.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { DataBindingComponent } from './data-binding/data-binding.component';
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: 'form', component: FormComponent },
   { path: 'departamento', component: DepartamentoComponent },
   { path: 'departamento/:id', component: DepartamentoDetalheComponent },
+  { path: 'todo-list', component: TodoListComponent },
   { path: '**', component: PagenotfoundComponent },
 ];
 
