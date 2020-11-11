@@ -12,6 +12,9 @@ import { PaiComponent } from './components/pai/pai.component';
 import { FilhoComponent } from './components/pai/filho/filho.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FormComponent } from './components/form/form.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { DepartamentoComponent } from './components/departamento/departamento.component';
+import { DepartamentoDetalheComponent } from './components/departamento-detalhe/departamento-detalhe.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +25,9 @@ import { FormComponent } from './components/form/form.component';
     PaiComponent,
     FilhoComponent,
     FormComponent,
+    PagenotfoundComponent,
+    DepartamentoComponent,
+    DepartamentoDetalheComponent,
   ],
   imports: [
     BrowserModule,
