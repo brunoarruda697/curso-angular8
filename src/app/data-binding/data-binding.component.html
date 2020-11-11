@@ -8,4 +8,13 @@
 <label>Two way binding:</label>
 <br>
 <input type="text" [(ngModel)]="nome"/>
-<h1>{{ nome }}</h1>
+
+<h1>{{ nome | lowercase }}</h1>
+<h1>{{ nome | uppercase }}</h1>
+<h1>{{ nome | titlecase }}</h1>
+<h1>{{ nome | slice:5 }}</h1>
+<h1>{{ {id: 1, nome: 'Bruno' } | json }}</h1>
+<h1>{{ 0.50 | percent }}</h1>
+<h1>{{ data | date:'short' }}</h1>
+<h1>{{ data | date:'shortDate' }}</h1>
+<h1>{{ data | date:'shortTime' }}</h1>

@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class DataBindingComponent implements OnInit {
   numero: number;
   nome: string;
+  data = new Date();
   constructor() { }
   ngOnInit() {
   }
